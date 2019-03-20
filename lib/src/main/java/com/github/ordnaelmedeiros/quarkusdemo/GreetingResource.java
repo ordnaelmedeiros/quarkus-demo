@@ -12,7 +12,7 @@ public class GreetingResource {
 
 	@Inject
     GreetingService service;
-
+	
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/greeting/{name}")
@@ -25,7 +25,7 @@ public class GreetingResource {
     public String hello() {
         return "hello";
     }
-
+    
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/json")

@@ -1,26 +1,30 @@
 package com.github.ordnaelmedeiros.quarkusdemo;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 @ApplicationScoped
 public class GreetingService {
 
-	private String base = "hello ";
+	@Inject @ConfigProperty(name = "greeting.message")
+	String base = null;
 	
 	public void changeBase(String newBase) {
 		if (newBase==null) {
 			this.base = "";
 		} else {
-			this.base = newBase.trim() + " ";
+			this.base = newBase.trim();
 		}
 	}
 	
 	public String getBase() {
-		return base;
+		return this.base + " ";
 	}
 	
 	public String greeting(String name) {
-		return base + name;
+		return getBase() + name;
 	}
 
 }

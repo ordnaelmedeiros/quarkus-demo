@@ -31,5 +31,5 @@ public class GreetingResourceTest {
             .statusCode(200)
             .body(is("hello " + uuid));
     }
-
+   
 }
