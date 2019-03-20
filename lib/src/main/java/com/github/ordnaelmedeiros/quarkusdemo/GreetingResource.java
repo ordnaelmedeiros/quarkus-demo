@@ -25,5 +25,12 @@ public class GreetingResource {
     public String hello() {
         return "hello";
     }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/json")
+    public Greeting app() {
+        return new Greeting("Test", "Testing2");
+    }
     
 }
