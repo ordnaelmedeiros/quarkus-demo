@@ -1,0 +1,55 @@
+2019-03-24 00:44:22,869 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.jpa.int.uti.LogHelper] (main) HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-03-24 00:44:22,918 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-03-24 00:44:22,945 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-03-24 00:44:23,009 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-03-24 00:44:23,170 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.jbo.res.res.i18n] (main) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.github.ordnaelmedeiros.quarkusdemo.QuarkusDemo
+2019-03-24 00:44:23,297 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 44295 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-03-24 00:44:23,377 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-03-24 00:44:23,499 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-24 00:44:23,766 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-24 00:44:23,774 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-24 00:44:23,814 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-24 00:44:23,849 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 00:44:23,849 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.209s. Listening on: http://127.0.0.1:8080
+2019-03-24 00:44:23,851 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 00:44:29,761 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 00:44:29,769 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[6557] INFO  [io.quarkus] (main) Quarkus stopped in 0.008s
+2019-03-24 01:17:27,913 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.jpa.int.uti.LogHelper] (main) HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-03-24 01:17:27,961 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-03-24 01:17:27,990 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-03-24 01:17:28,056 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-03-24 01:17:28,218 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.jbo.res.res.i18n] (main) RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.github.ordnaelmedeiros.quarkusdemo.QuarkusDemo
+2019-03-24 01:17:28,370 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 36431 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-03-24 01:17:28,458 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-03-24 01:17:28,576 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-24 01:17:28,729 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-24 01:17:28,739 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-24 01:17:28,782 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-24 01:17:28,823 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 01:17:28,824 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.149s. Listening on: http://127.0.0.1:8080
+2019-03-24 01:17:28,826 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 01:17:32,078 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 01:17:32,103 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner.jar[12957] INFO  [io.quarkus] (main) Quarkus stopped in 0.025s
+2019-03-24 01:24:50,582 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[14656] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 01:24:50,582 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[14656] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.001s. Listening on: http://127.0.0.1:8080
+2019-03-24 01:24:50,582 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[14656] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 01:24:57,280 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[14656] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 01:24:57,281 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[14656] INFO  [io.quarkus] (main) Quarkus stopped in 0.001s
+2019-03-24 01:40:02,419 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-24 01:40:02,510 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 01:40:02,510 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.094s. Listening on: http://127.0.0.1:8080
+2019-03-24 01:40:02,510 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 01:40:11,933 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 01:40:11,935 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[18668] INFO  [io.quarkus] (main) Quarkus stopped in 0.001s
+2019-03-24 01:42:15,496 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-24 01:42:15,607 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 01:42:15,608 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.114s. Listening on: http://127.0.0.1:8080
+2019-03-24 01:42:15,608 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 01:42:20,117 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 01:42:20,118 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[19132] INFO  [io.quarkus] (main) Quarkus stopped in 0.002s
+2019-03-24 01:46:58,062 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-24 01:46:58,171 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] INFO  [ListenerBean] (main) The application is starting...
+2019-03-24 01:46:58,171 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.112s. Listening on: http://127.0.0.1:8080
+2019-03-24 01:46:58,172 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-24 01:46:59,957 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-24 01:46:59,958 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[20125] INFO  [io.quarkus] (main) Quarkus stopped in 0.001s

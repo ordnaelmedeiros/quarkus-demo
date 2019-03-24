@@ -1,0 +1,4 @@
+cd lib
+docker build -t quarkus-demo
+dokcer run
+quarkus-demo -d
