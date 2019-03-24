@@ -10,8 +10,10 @@ import org.slf4j.LoggerFactory;
 
 import io.quarkus.runtime.ShutdownEvent;
 import io.quarkus.runtime.StartupEvent;
+import io.swagger.annotations.BasicAuthDefinition;
 import io.swagger.annotations.Contact;
 import io.swagger.annotations.Info;
+import io.swagger.annotations.SecurityDefinition;
 import io.swagger.annotations.SwaggerDefinition;
 
 @ApplicationScoped
@@ -32,24 +34,24 @@ import io.swagger.annotations.SwaggerDefinition;
 	    basePath = "/api",
 	    schemes = {SwaggerDefinition.Scheme.HTTP}
 		
-		/*,
+		,
 	    securityDefinition=@SecurityDefinition(
 	    		
 	    		basicAuthDefinitions=@BasicAuthDefinition(
-	    			key="basic",
+	    			key="oauth",
 	    			description="Autenticacao"
 				)
-				
+	    		/*
 	    		oAuth2Definitions=@OAuth2Definition(
 	    				authorizationUrl="/api/oauth/login",
 	    				tokenUrl="/api/oauth/login",
 	    				flow = OAuth2Definition.Flow.PASSWORD,
 	    				key = "oauth",
 	    				description="Obs.: type: 'Query parameters'"
-				)
+				)*/
 				
 		)
-		*/
+		
 )
 
 public class QuarkusDemo extends Application {

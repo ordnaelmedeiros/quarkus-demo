@@ -13,6 +13,7 @@ public class SwaggerResource extends ApiListingResource {
 		try {
 			
 			BeanConfig beanConfig = new BeanConfig();
+			beanConfig.setBasePath("/api");
 	        beanConfig.setResourcePackage("com.github.ordnaelmedeiros.quarkusdemo");
 	        beanConfig.setScan(true);
 			
