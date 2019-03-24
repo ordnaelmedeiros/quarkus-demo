@@ -1,5 +1,6 @@
 /target/
 /.settings/
+/ObjectStore/
 .classpath
 .project
 quarkus.log
