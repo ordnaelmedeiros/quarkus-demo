@@ -1006,3 +1006,9 @@ Caused by: com.oracle.svm.core.jdk.UnsupportedFeatureError: Proxy class defined 
 
 2019-03-24 08:43:47,693 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[5436] INFO  [ListenerBean] (main) The application is stopping...
 2019-03-24 08:43:47,694 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[5436] INFO  [io.quarkus] (main) Quarkus stopped in 0.001s
+2019-03-29 10:00:10,264 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-03-29 10:00:10,929 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] INFO  [ListenerBean] (main) The application is starting...
+2019-03-29 10:00:10,929 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.669s. Listening on: http://127.0.0.1:8080
+2019-03-29 10:00:10,930 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb, smallrye-health]
+2019-03-29 10:00:38,155 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] INFO  [ListenerBean] (main) The application is stopping...
+2019-03-29 10:00:38,156 leandro-xps-8920 quarkus-demo-1.0-SNAPSHOT-runner[24124] INFO  [io.quarkus] (main) Quarkus stopped in 0.002s
